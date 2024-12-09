@@ -1,30 +1,36 @@
-# CS-643-Cloud-Computing-wineprediction-
+Here is a properly formatted version of the provided content:
 
+---
 
-    <h2>Objective</h2>
-    <p>This assignment focuses on developing parallel machine learning applications on the Amazon AWS cloud platform. The primary goal is to learn:</p>
-    <ul>
-        <li>Utilizing Apache Spark to train a machine learning model in parallel across multiple EC2 instances.</li>
-        <li>Employing Spark’s MLlib for machine learning model development and application in the cloud.</li>
-        <li>Leveraging Docker to containerize the ML model, simplifying deployment across environments.</li>
-    </ul>
+# CS-643: Cloud Computing - Wine Prediction Assignment
 
-    <h2>Introduction</h2>
-    <p>The task involves building and deploying a wine quality prediction model. This model will be trained using Spark on AWS, utilizing multiple EC2 instances for parallel processing. The implementation language will be Java on an Ubuntu Linux environment.</p>
+## Objective
+This assignment focuses on developing parallel machine learning applications on the **Amazon AWS cloud platform**. The primary goals are:
 
-    <h2>Methodology</h2>
+1. **Utilizing Apache Spark** to train a machine learning model in parallel across multiple EC2 instances.
+2. Employing **Spark’s MLlib** for machine learning model development and application in the cloud.
+3. Leveraging **Docker** to containerize the ML model, simplifying deployment across environments.
 
-    <h3>Dataset Description</h3>
-    <ul>
-        <li><strong>TrainingDataset.csv</strong>: Used for training the model on multiple EC2 instances in parallel.</li>
-        <li><strong>ValidationDataset.csv</strong>: Employed for model validation and parameter tuning to optimize performance.</li>
-    </ul>
+---
 
-    <h3>Model Development</h3>
-    <ul>
-        <li>The model is trained using Spark’s MLlib, starting with a basic logistic regression model, potentially exploring other models for enhanced performance.</li>
-        <li>The model uses the training dataset for learning and the validation dataset for performance tuning.</li>
-        <li>Classification approach considers wine scores from 1 to 10, allowing a multi-class classification model.</li>
-    </ul>
-</body>
-</html>
+## Introduction
+The task involves building and deploying a **wine quality prediction model**. This model will be trained using Spark on AWS, utilizing **multiple EC2 instances** for parallel processing. The implementation will be done in **Java** within an **Ubuntu Linux environment**.
+
+---
+
+## Methodology
+
+### Dataset Description
+- **TrainingDataset.csv**: Used for training the model on multiple EC2 instances in parallel.
+- **ValidationDataset.csv**: Employed for model validation and parameter tuning to optimize performance.
+
+---
+
+### Model Development
+- The model is trained using **Spark’s MLlib**, starting with a **logistic regression model** and potentially exploring other models for enhanced performance.
+- The **training dataset** is used for model learning, and the **validation dataset** is utilized for performance tuning.
+- A **multi-class classification approach** is adopted to classify wine quality scores ranging from **1 to 10**.
+
+---
+
+This structured version improves readability and organization while preserving the core information.
