@@ -1,30 +1,5 @@
 # CS-643-Cloud-Computing-wineprediction-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wine Quality Prediction Assignment</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-        }
-        h1, h2, h3 {
-            color: #2c3e50;
-        }
-        ul {
-            margin: 10px 0;
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Wine Quality Prediction Assignment</h1>
+
 
     <h2>Objective</h2>
     <p>This assignment focuses on developing parallel machine learning applications on the Amazon AWS cloud platform. The primary goal is to learn:</p>
